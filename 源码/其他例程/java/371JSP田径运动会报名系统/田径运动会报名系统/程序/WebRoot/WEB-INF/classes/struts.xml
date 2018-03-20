@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="successAdd">/common/add_success.jsp</result>
+            <result name="successDel">/common/del_success.jsp</result>
+            <result name="successUpdate">/common/update_success.jsp</result>
+        </global-results>
+        
+         
+        
+        <action name="adminAdd" class="adminAction" method="adminAdd">
+        </action>
+        <action name="adminDel" class="adminAction" method="adminDel">
+        </action>
+        <action name="adminManage" class="adminAction" method="adminManage">
+            <result name="success">/admin/index/adminManage.jsp</result>
+        </action>
+        
+        
+        
+        <action name="gonggaoAdd" class="gonggaoAction" method="gonggaoAdd">
+        </action>
+        <action name="gonggaoDel" class="gonggaoAction" method="gonggaoDel">
+        </action>
+        <action name="gonggaoMana" class="gonggaoAction" method="gonggaoMana">
+            <result>/admin/gonggao/gonggaoMana.jsp</result>
+        </action>
+        <action name="gonggaoDetail" class="gonggaoAction" method="gonggaoDetail">
+            <result>/admin/gonggao/gonggaoDetail.jsp</result>
+        </action>
+        <action name="gonggaoAll" class="gonggaoAction" method="gonggaoAll">
+            <result>/ayundongyuan/gonggao/gonggaoAll.jsp</result>
+        </action>
+        
+        
+        
+        
+        <action name="catelogMana" class="catelogAction" method="catelogMana">
+             <result name="success">/admin/catelog/catelogMana.jsp</result>
+        </action>
+        <action name="catelogAdd" class="catelogAction" method="catelogAdd">
+        </action>
+        <action name="catelogDel" class="catelogAction" method="catelogDel">
+        </action>
+        <action name="catelogAll2" class="catelogAction" method="catelogAll2">
+            <result>/admin/baoming/catelogAll2.jsp</result>
+        </action>
+        <action name="catelogAll" class="catelogAction" method="catelogAll">
+            <result>/ayundongyuan/catelog/catelogAll.jsp</result>
+        </action>
+        
+        
+        
+        
+        
+        <action name="yundongyuanReg" class="yundongyuanAction" method="yundongyuanReg">
+        </action>
+        <action name="yundongyuanDetail" class="yundongyuanAction" method="yundongyuanDetail">
+            <result>/admin/baoming/yundongyuanDetail.jsp</result>
+        </action>
+        
+        
+        
+        <action name="baomingAdd" class="baomingAction" method="baomingAdd">
+        </action>
+        <action name="baomingMy" class="baomingAction" method="baomingMy">
+            <result>/ayundongyuan/baoming/baomingMy.jsp</result>
+        </action>
+        <action name="baomingDelByMy" class="baomingAction" method="baomingDelByMy">
+        </action>
+        <action name="baomingMana" class="baomingAction" method="baomingMana">
+            <result>/admin/baoming/baomingMana.jsp</result>
+        </action>
+        <action name="baomingDelByAd" class="baomingAction" method="baomingDelByAd">
+        </action>
+        <action name="baomingTongguo" class="baomingAction" method="baomingTongguo">
+        </action>
+        <action name="baomingJujue" class="baomingAction" method="baomingJujue">
+        </action>
+    </package>
+</struts>

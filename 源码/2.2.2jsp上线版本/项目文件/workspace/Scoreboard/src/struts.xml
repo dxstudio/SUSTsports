@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.devMode" value="false" />
+     <constant name="struts.multipart.maxSize" value="70485760"/>
+     <constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	<package name="Scoreboard" extends="struts-default" namespace="/">
+	<!-- 生命拦截器 -->
+	<interceptors>
+	   <interceptor name="privateInt" class="com.ljj.interceptor.PrivateInterceptor">
+	      <param name="excludeMethods">loginPage,adminLogin</param>
+	   </interceptor>
+	   <interceptor-stack name="myStack">
+	       <interceptor-ref name="defaultStack"></interceptor-ref>
+	        <interceptor-ref name="privateInt"> 
+	        </interceptor-ref>       
+	   </interceptor-stack>
+	</interceptors>
+	<!-- 首页的action -->
+	  <action name="index" class="indexAction">
+	     <result>/WEB-INF/pages/index.jsp</result>
+	  </action>
+	  <!-- 管理员action -->
+	   <action name="Admin_*" class="adminAction" method="{1}">
+	     <result name="login">/WEB-INF/pages/login.jsp</result>
+	     <result name="input">/WEB-INF/pages/login.jsp</result>
+	     <result>/WEB-INF/pages/adminPage.jsp</result>
+	     <result name="importPage">/WEB-INF/pages/importPage.jsp</result>
+	     <result name="import">/WEB-INF/pages/importSuccess.jsp</result>
+	     <result name="importScore">/WEB-INF/pages/importScore.jsp</result>
+	     <result name="ScorePage">/WEB-INF/pages/importScorePage.jsp</result>
+	     <result name="importerror">/WEB-INF/pages/adminPage.jsp</result>
+	     <result name="importGame">/WEB-INF/pages/importGamePage.jsp</result>
+	     <result name="importGameData">/WEB-INF/pages/importGameSuccess.jsp</result>
+	     <result name="clearScore">/WEB-INF/pages/importGameSuccess.jsp</result>
+	     <result name="loginout">/WEB-INF/pages/index.jsp</result>
+	      <interceptor-ref name="myStack">
+	           <param name="fileUpload.maximumSize">10097152</param>          
+	      </interceptor-ref>     
+	  </action>
+	  <!-- 运动员的action -->
+	  <action name="Athlete_*" class="AthleteAction" method="{1}">
+	  </action>
+	  <!-- 运动员参赛表 -->
+	  <action name="Score_*" class="ScoreAction" method="{1}">
+	     <result name="inform">/WEB-INF/pages/importSuccess.jsp</result>
+	     <result name="queryResult">/WEB-INF/pages/gamerank.jsp</result>
+	     <result name="querySC">/WEB-INF/pages/importSuccess.jsp</result>
+	  </action>
+	  <!--发帖的action-->
+	  <action name="Post_*" class="PostAction" method="{1}">
+	     <result name="sendPage">/WEB-INF/pages/sendPage.jsp</result>
+	     <result name="input" type="redirectAction">Post_sendPage?currentPage=1</result>  
+	     <result name="savePage"  type="redirectAction">Post_sendPage?currentPage=1</result>
+
+	  </action>
+	  <!-- 比赛的action -->
+	  <action name="Game_*" class="gameAction" method="{1}">
+	     <result name="queryGames">/WEB-INF/pages/games.jsp</result>
+	  </action>
+	  <!-- 学院的action -->
+	  <action name="Academe_*" class="academeAction" method="{1}">
+	      <result name="initAcademe">/WEB-INF/pages/initAcademe.jsp</result>
+	  </action>
+	</package>
+</struts>

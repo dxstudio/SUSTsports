@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	
+	<!-- 配置连接池: -->
+	<!-- 引入外部属性文件 -->
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+	<!-- 配置C3P0连接池: -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="${jdbc.driver}"/>
+		<property name="jdbcUrl" value="${jdbc.url}"/>
+		<property name="user" value="${jdbc.user}"/>
+		<property name="password" value="${jdbc.password}"/>
+		<property name="minPoolSize" value="10" />
+        <property name="maxPoolSize" value="100" />
+        <property name="maxIdleTime" value="1800" />
+        <property name="acquireIncrement" value="3" />
+        <property name="maxStatements" value="1000" />
+        <property name="initialPoolSize" value="10" />
+        <property name="idleConnectionTestPeriod" value="60" />
+        <property name="acquireRetryAttempts" value="30" />
+        <property name="breakAfterAcquireFailure" value="true" />
+        <property name="testConnectionOnCheckout" value="false" />
+	</bean>
+	
+	<!-- Hibernate的相关信息 -->
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean" >
+		<!-- 注入连接池 -->
+		<property name="dataSource" ref="dataSource" />
+		<!-- 配置Hibernate的其他的属性 -->
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.connection.autocommit">false</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+		<!-- 配置Hibernate的映射文件 -->
+		<property name="mappingResources">	
+		     <list>		
+			    <value>com/ljj/domain/Admin.hbm.xml</value>
+			     <value>com/ljj/domain/Academe.hbm.xml</value>
+			      <value>com/ljj/domain/Athlete.hbm.xml</value>
+			       <value>com/ljj/domain/Game.hbm.xml</value>
+			        <value>com/ljj/domain/Score.hbm.xml</value>
+			         <value>com/ljj/domain/Post.hbm.xml</value>
+			 </list>
+		</property>
+</bean>
+<bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+  	<property name="sessionFactory" ref="sessionFactory"/>
+</bean>
+<!-- 启用事务注解 -->
+<tx:annotation-driven transaction-manager="txManager"/>
+
+<!-- 跳转到首页的action -->
+  <bean id="indexAction" class="com.ljj.index.action.IndexAction" scope="prototype">
+         <property name="scoreService" ref="scoreService"></property>
+         <property name="academeService" ref="academeService"></property>
+  </bean>
+  <!-- 管理员的action -->
+  <bean id="adminAction" class="com.ljj.admin.action.AdminAction" scope="prototype">
+      <property name="adminService" ref="adminService"></property>
+      <property name="gameService" ref="gameService"></property>
+      <property name="athleteService" ref="athleteService"></property>
+      <property name="scoreService" ref="scoreService"></property>
+      <property name="academeService" ref="academeService"></property>
+  </bean>
+  <!-- 管理员的Service -->
+  <bean id="adminService" class="com.ljj.admin.service.AdminService">
+      <property name="adminDao" ref="adminDao"></property>
+  </bean>
+  <!-- 管理员的dao -->
+  <bean id="adminDao" class="com.ljj.admin.dao.AdminDao">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+  </bean>
+  <!--运动员的action-->
+  <bean id="AthleteAction" class="com.ljj.athlete.action.AthleteAction" scope="prototype">
+       <property name="athleteService" ref="athleteService"></property>
+  </bean>
+  <!-- 运动员的Service -->
+  <bean id="athleteService" class="com.ljj.athlete.service.AthleteService">
+      <property name="athleteDao" ref="athleteDao"></property>
+  </bean>
+  <!-- 运动员的dao -->
+  <bean id="athleteDao" class="com.ljj.athlete.dao.AthleteDao">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+  </bean>
+  <!--运动员参赛的action-->
+   <bean id="ScoreAction" class="com.ljj.score.action.ScoreAction" scope="prototype">
+       <property name="scoreService" ref="scoreService"></property>
+  </bean>
+  <!-- 运动员的Service -->
+  <bean id="scoreService" class="com.ljj.score.service.ScoreService">
+      <property name="scoreDao" ref="scoreDao"></property>
+  </bean>
+  <!-- 运动员的dao -->
+  <bean id="scoreDao" class="com.ljj.score.dao.ScoreDao">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+  </bean>
+  <!-- 比赛项目的Service -->
+  <bean id="gameService" class="com.ljj.game.Service.GameService">
+      <property name="gameDao" ref="gameDao"></property>
+  </bean>
+  <!-- 比赛项目的dao -->
+  <bean id="gameDao" class="com.ljj.game.dao.GameDao">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+  </bean>
+  <!--发帖的action-->
+  <bean id="PostAction" class="com.ljj.post.action.PostAction" scope="prototype">
+      <property name="academeService" ref="academeService"></property>
+      <property name="postService" ref="postService"></property>
+  </bean>
+  <!-- 发帖的Service -->
+  <bean id="postService" class="com.ljj.post.Service.PostService">
+      <property name="postDao" ref="postDao"></property>
+  </bean>
+  <!-- 发帖的dao -->
+  <bean id="postDao" class="com.ljj.post.dao.PostDao">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+  </bean>
+  <!--学院的action-->
+   <bean id="academeAction" class="com.ljj.academe.action.AcademeAction" scope="prototype">
+       <property name="academeService" ref="academeService"></property>
+  </bean>
+  <!-- 学院的Service -->
+  <bean id="academeService" class="com.ljj.academe.service.AcademeService">
+      <property name="academeDao" ref="academeDao"></property>
+  </bean>
+  <!-- 学院的的dao -->
+  <bean id="academeDao" class="com.ljj.academe.dao.AcademeDao">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+  </bean>
+  <!-- 比赛action -->
+  <bean id="gameAction" class="com.ljj.game.action.GameAction" scope="prototype">
+       <property name="gameService" ref="gameService"></property>
+  </bean>
+</beans>

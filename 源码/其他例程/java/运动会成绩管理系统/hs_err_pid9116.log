@@ -1,0 +1,123 @@
+#
+# An unexpected error has been detected by HotSpot Virtual Machine:
+#
+#  Internal Error (4A41564123414C4C530E4350500018), pid=9116, tid=8312
+#
+# Java VM: Java HotSpot(TM) Client VM (1.5.0_04-b05 mixed mode, sharing)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0082f7c0):  JavaThread "CompilerThread0" daemon [_thread_in_vm, id=8312]
+
+Stack: [0x02cd0000,0x02d10000),  sp=0x02d0f3d8,  free space=252k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x114892]
+V  [jvm.dll+0x61795]
+V  [jvm.dll+0x82072]
+V  [jvm.dll+0x8265c]
+V  [jvm.dll+0xd6fd9]
+V  [jvm.dll+0x82567]
+V  [jvm.dll+0x88f2b]
+C  [awt.dll+0xb119a]
+C  [MSVCRT.dll+0x1d0a2]
+V  [jvm.dll+0xd3e66]
+
+
+Current CompileTask:
+HotSpot Client Compiler: 62  !b  sun.nio.cs.UTF_8$Decoder.decodeArrayLoop(Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult; (1814 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00843e80 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=10016]
+  0x0083f210 JavaThread "AWT-Windows" daemon [_thread_in_native, id=8876]
+  0x0083fe80 JavaThread "AWT-Shutdown" [_thread_blocked, id=9368]
+  0x00839250 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=9400]
+  0x00831e80 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=9032]
+=>0x0082f7c0 JavaThread "CompilerThread0" daemon [_thread_in_vm, id=8312]
+  0x0082e640 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=8772]
+  0x0082da80 JavaThread "Finalizer" daemon [_thread_blocked, id=9964]
+  0x0082c7a0 JavaThread "Reference Handler" daemon [_thread_blocked, id=7504]
+  0x00823c00 JavaThread "main" [_thread_blocked, id=9136]
+
+Other Threads:
+  0x0082b970 VMThread [id=8408]
+  0x00832b30 WatcherThread [id=8384]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 576K, used 95K [0x22bd0000, 0x22c70000, 0x230b0000)
+  eden space 512K,   6% used [0x22bd0000, 0x22bd7e08, 0x22c50000)
+  from space 64K, 100% used [0x22c60000, 0x22c70000, 0x22c70000)
+  to   space 64K,   0% used [0x22c50000, 0x22c50000, 0x22c60000)
+ tenured generation   total 1408K, used 680K [0x230b0000, 0x23210000, 0x26bd0000)
+   the space 1408K,  48% used [0x230b0000, 0x2315a398, 0x2315a400, 0x23210000)
+ compacting perm gen  total 8192K, used 532K [0x26bd0000, 0x273d0000, 0x2abd0000)
+   the space 8192K,   6% used [0x26bd0000, 0x26c55060, 0x26c55200, 0x273d0000)
+    ro space 8192K,  66% used [0x2abd0000, 0x2b129dc0, 0x2b129e00, 0x2b3d0000)
+    rw space 12288K,  46% used [0x2b3d0000, 0x2b967e98, 0x2b968000, 0x2bfd0000)
+
+Dynamic libraries:
+0x00400000 - 0x0040c000 	C:\Program Files\Java\jdk1.5.0_04\bin\javaw.exe
+0x7c930000 - 0x7ca00000 	C:\WIN2003\system32\ntdll.dll
+0x7c800000 - 0x7c92b000 	C:\WIN2003\system32\kernel32.dll
+0x77f30000 - 0x77fdc000 	C:\WIN2003\system32\ADVAPI32.dll
+0x77c20000 - 0x77cbf000 	C:\WIN2003\system32\RPCRT4.dll
+0x77e10000 - 0x77ea1000 	C:\WIN2003\system32\USER32.dll
+0x77bd0000 - 0x77c18000 	C:\WIN2003\system32\GDI32.dll
+0x77b70000 - 0x77bca000 	C:\WIN2003\system32\MSVCRT.dll
+0x76180000 - 0x7619d000 	C:\WIN2003\system32\IMM32.DLL
+0x63090000 - 0x63099000 	C:\WIN2003\system32\LPK.DLL
+0x74ae0000 - 0x74b41000 	C:\WIN2003\system32\USP10.dll
+0x6d6b0000 - 0x6d839000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\client\jvm.dll
+0x769e0000 - 0x76a0a000 	C:\WIN2003\system32\WINMM.dll
+0x6d2f0000 - 0x6d2f8000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\hpi.dll
+0x76ab0000 - 0x76abb000 	C:\WIN2003\system32\PSAPI.DLL
+0x6d680000 - 0x6d68c000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\verify.dll
+0x6d370000 - 0x6d38d000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\java.dll
+0x6d6a0000 - 0x6d6af000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\zip.dll
+0x6d070000 - 0x6d1d7000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\awt.dll
+0x72f40000 - 0x72f67000 	C:\WIN2003\system32\WINSPOOL.DRV
+0x774b0000 - 0x775e4000 	C:\WIN2003\system32\ole32.dll
+0x71ad0000 - 0x71b05000 	C:\WIN2003\system32\uxtheme.dll
+0x73730000 - 0x7377c000 	C:\WIN2003\system32\ddraw.dll
+0x73a60000 - 0x73a66000 	C:\WIN2003\system32\DCIMAN32.dll
+0x737e0000 - 0x738b0000 	C:\WIN2003\system32\D3DIM700.DLL
+0x6d2b0000 - 0x6d2ed000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\fontmanager.dll
+0x4b210000 - 0x4b261000 	C:\WIN2003\system32\MSCTF.dll
+0x75d60000 - 0x75d87000 	C:\WIN2003\system32\apphelp.dll
+0x4c510000 - 0x4c53e000 	C:\WIN2003\system32\msctfime.ime
+0x7ca10000 - 0x7d1f0000 	C:\WIN2003\system32\shell32.dll
+0x77eb0000 - 0x77f02000 	C:\WIN2003\system32\SHLWAPI.dll
+0x77cd0000 - 0x77dd3000 	C:\WIN2003\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.3790.1830_x-ww_7AE38CCF\comctl32.dll
+0x6d530000 - 0x6d543000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\net.dll
+0x71b60000 - 0x71b77000 	C:\WIN2003\system32\WS2_32.dll
+0x71b50000 - 0x71b58000 	C:\WIN2003\system32\WS2HELP.dll
+0x6d550000 - 0x6d559000 	C:\Program Files\Java\jdk1.5.0_04\jre\bin\nio.dll
+
+VM Arguments:
+java_command: applicationLayer.StartApp
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.5.0_04
+CLASSPATH=C:\Program Files\Java\jdk1.5.0_04\lib\tools.jar;C:\Program Files\Java\jdk1.5.0_04\lib\dt.jar;C:\Program Files\Java\jdk1.5.0_04\jre\lib\rt.jar;C:\Program Files\Java\jdk1.5.0_04\jre\lib\jaws.jar;C:\Program Files\Java\jdk1.5.0_04\jre;C:\Program Files\Java\jdk1.5.0_04\src;D:\Jboss4\lib;C:\oracle\ora92\jdbc\lib;.
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 15 Model 4 Stepping 10, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows Server 2003 family Build 3790 Service Pack 1
+
+CPU:total 1 family 15, cmov, cx8, fxsr, mmx, sse, sse2
+
+Memory: 4k page, physical 1047824k(56324k free), swap 2573452k(5168k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.5.0_04-b05) for windows-x86, built on Jun  3 2005 02:10:41 by "java_re" with MS VC++ 6.0
+

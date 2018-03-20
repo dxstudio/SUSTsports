@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="author" content="https://github.com/picturepan2/">
+  <title>SUST sports game</title>
+  <link rel="stylesheet" href="__STATIC__/spectre-0.4.5/css/spectre.css">
+  <link rel="stylesheet" href="__STATIC__/spectre-0.4.5/css/spectre-icons.css">
+  <link rel="stylesheet" href="__STATIC__/spectre-0.4.5/css/spectre-exp.css">
+  <link rel="stylesheet" href="__STATIC__/spectre-0.4.5/css/docs.css">
+
+  <script src="__STATIC__/spectre-0.4.5/js/jquery-3.2.1.min.js"></script>
+  <script src="__STATIC__/spectre-0.4.5/js/jquery.validate.min.js"></script>
+  <script src="__STATIC__/spectre-0.4.5/js/formValidate.js"></script>
+</head>
+<body>
+  <div class="docs-container off-canvas">
+    <div class="docs-navbar">
+      <a class="off-canvas-toggle btn btn-link btn-action" href="#match">
+        <i class="icon icon-menu icon-1x"></i>
+      </a>
+      <!-- <a href="{:url('user/timeline')}" class="btn btn-link "><i class="icon icon-people icon-2x"></i></a> -->
+      <a href="#user" class="btn btn-link "><i class="icon icon-people icon-1x"></i></a>
+    </div>
+    <div id="match" class="docs-sidebar off-canvas-sidebar">
+      <div class="docs-brand">
+        <a href="index.html" class="docs-logo">
+          <img src="__STATIC__/spectre-0.4.5/img/spectre-logo.png" alt="Spectre.css CSS Framework">
+          <h2>SUST sports</h2>
+        </a>
+      </div>
+      <div class="docs-nav">
+        <div class="accordion-container">
+          <div class="accordion">
+            <input type="checkbox" id="docs-accordion-2" name="docs-accordion-checkbox" hidden checked>
+            <label class="accordion-header c-hand" for="docs-accordion-2">
+              赛事
+            </label>
+            <div class="accordion-body">
+              <ul class="menu menu-nav">
+                <li class="menu-item">
+                  <a href="{:url('index')}">直播间</a>
+                </li>
+                <li class="menu-item">
+                  <a href="{:url('index/index/project_list')}">项目</a>
+                </li>
+                <li class="menu-item">
+                  <a href="{:url('index/index/time_list')}">赛程</a>
+                </li>
+              </ul>
+            </div>
+            <label class="accordion-header">
+              <a href="{:url('index/index/match_list')}">其他赛事</a>
+            </label>
+          </div>
+          <div class="accordion">
+            <input type="checkbox" id="docs-accordion-3" name="docs-accordion-checkbox" hidden>
+            <label class="accordion-header c-hand" for="docs-accordion-3">
+              成绩
+            </label>
+            <div class="accordion-body">
+              <ul class="menu menu-nav">
+                <li class="menu-item">
+                  <a href="{:url('index')}">积分榜</a>
+                </li>
+                <li class="menu-item">
+                  <a href="{:url('index/index/project_list')}">奖牌榜</a>
+                </li>
+                <li class="menu-item">
+                  <a href="{:url('index/index/time_list')}">记录榜</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion">
+            <input type="checkbox" id="docs-accordion-4" name="docs-accordion-checkbox" hidden >
+            <label class="accordion-header c-hand" for="docs-accordion-4">
+              互动
+            </label>
+            <div class="accordion-body">
+              <ul class="menu menu-nav">
+                <li class="menu-item">
+                  <a href="{:url('index')}">文章</a>
+                </li>
+                <li class="menu-item">
+                  <a href="{:url('index/index/project_list')}">讨论区</a>
+                </li>
+                <li class="menu-item">
+                  <a href="{:url('index/index/time_list')}">..</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="user" class="docs-sidebar user-sidebar">
+      <div class="docs-brand">
+        <a href="index.html" class="docs-logo">
+          <img src="__STATIC__/spectre-0.4.5/img/spectre-logo.png" alt="Spectre.css CSS Framework">
+          <h2>SUST sports</h2>
+        </a>
+      </div>
+      <div class="docs-nav">
+        <div class="accordion-container">
+          <div class="accordion">
+            <input type="checkbox" id="docs-accordion-1" name="docs-accordion-checkbox" hidden checked>
+            <label class="accordion-header c-hand" for="docs-accordion-1">
+              参赛
+            </label>
+            <div class="accordion-body">
+              <ul class="menu menu-nav">
+                <li class="menu-item">
+                  <a href="{:url('index/user/index')}">报名</a>
+                </li>
+                <li class="menu-item">
+                  <a href="">信息</a>
+                </li>
+                <li class="menu-item">
+                  <a href="">成绩</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <a class="off-canvas-overlay" href="#close"></a>
+    <div id="content" class="docs-content off-canvas-content">
+      <div class=" s-title">
+        <figure class="avatar avatar-sm" data-initial="TS" style="background-color: #5755d9;"></figure>
+        即将进行铁人三项赛
+      </div>

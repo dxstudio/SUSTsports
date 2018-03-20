@@ -1,0 +1,362 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@font-face {
+  font-family: 楷体;
+  src: url('../fonts/kaiti.ttf');
+  /* IE9 */
+}
+body {
+  padding-top: 60px;
+}
+.navbar {
+  background-color: #fff;
+  border-bottom: 3px solid #01a5ed;
+}
+.navbar .navbar-brand {
+  font-family: 楷体;
+  font-weight: bolder;
+}
+.navbar .navbar-brand .logo {
+  display: inline-block;
+  margin-top: -5px;
+  height: 35px;
+  width: auto;
+}
+.navbar .navbar-brand span {
+  position: relative;
+  top: -5px;
+}
+.bag-img {
+  width: 100%;
+  height: auto;
+}
+.title {
+  border-bottom: 1px solid #01a5ed;
+  height: 55px;
+  width: 100%;
+  padding-left: 5px;
+  font-family: 楷体;
+}
+.title span {
+  line-height: 55px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #01a5ed;
+  text-shadow: -1px -1px 2px #fff;
+}
+.title button {
+  float: right;
+  background-color: #01a5ed;
+  color: white;
+  margin-top: 13px;
+}
+.title button:active {
+  background-color: #01a5ed;
+  color: white;
+}
+.academy-item {
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+  line-height: 50px;
+}
+.academy-item .academy-img {
+  width: 60%;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  margin-left: 5px;
+}
+.academy-item .academy-img img {
+  display: inline;
+}
+.academy-item .rank-img {
+  height: 50px;
+  line-height: 50px;
+  float: right;
+}
+.academy-item .rank-img img {
+  display: inline;
+  height: 35px;
+  width: auto;
+}
+.academy-content {
+  background-image: url("../images/bg14.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  display: none;
+  margin-top: -3px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #eee;
+  font-family: 楷体;
+  font-size: 18px;
+}
+.academy-content .gold,
+.academy-content .silver,
+.academy-content .copper {
+  color: #01a5ed;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 50%;
+  float: right;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 45px;
+}
+.academy-content .gold img,
+.academy-content .silver img,
+.academy-content .copper img {
+  display: inline-block;
+  height: 35px;
+  width: auto;
+  margin-top: -10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.academy-content .gold span,
+.academy-content .silver span,
+.academy-content .copper span {
+  margin: 0 5px;
+  display: inline-block;
+}
+.academy-content .gold span:last-child,
+.academy-content .silver span:last-child,
+.academy-content .copper span:last-child {
+  float: right;
+}
+.academy-content label {
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 2px  #555;
+  margin: 10px 10px;
+}
+.paging {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.paging nav {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  height: 80px;
+  line-height: 30px;
+  color: #555;
+  margin-top: 10px;
+  border-bottom: 3px solid #01a5ed;
+}
+.footer img {
+  display: inline;
+  width: auto;
+  height: 30px;
+}
+.section {
+  font-family: 楷体;
+  text-indent: 1em;
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 10px 5px;
+  width: 100%;
+  height: auto;
+  border-bottom: dashed 1px #ddd;
+}
+.section label {
+  display: block;
+  width: 100%;
+}
+.section label span {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  float: right;
+  margin-left: 10px;
+}
+.modal-header {
+  padding: 5px;
+  border-bottom: 2px solid #01a5ed;
+}
+.modal-header img {
+  width: 30px;
+  height: auto;
+  margin: 0;
+}
+.modal-body button {
+  margin-left: 17%;
+}
+.btn-primary {
+  background-color: #01a5ed;
+}
+table {
+  margin-top: 5px;
+  font-family: 楷体;
+  font-size: 16px;
+  width: 100%;
+}
+table tr {
+  height: 40px;
+  line-height: 40px;
+}
+table tr th {
+  border: solid 1px #eee;
+}
+table tr td {
+  padding-left: 10px;
+  border: solid 1px #eee;
+}
+table tr td img {
+  margin: 0;
+  height: 25px;
+}
+.schedule {
+  height: auto;
+}
+.schedule table tr th,
+.schedule table tr td {
+  text-align: center;
+}
+.schedule table tr ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.adminLoginForm {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 20% 0;
+}
+.adminLoginForm h2 {
+  color: white;
+  text-shadow: -1px -1px 2px #01a5ed;
+}
+.adminLoginForm form {
+  margin: 20% auto ;
+  text-align: right;
+}
+.adminLoginForm form button {
+  width: 40%;
+  letter-spacing: 10px;
+}
+.adminFooter {
+  position: fixed;
+  bottom: 0;
+}
+.adminBody {
+  background-image: url("../images/bg3.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.news-box {
+  padding-top: 8px;
+}
+.news {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.news .media-left img {
+  height: 70px;
+  width: auto;
+}
+.news .media-body {
+  color: #444;
+}
+.news .media-body a {
+  color: inherit;
+}
+.news .media-body span {
+  letter-spacing: 1px;
+  color: red;
+  display: inline-block;
+  padding: 0 3px;
+  font-size: 5px;
+  border: 1px solid red;
+}
+.news-content .article-time {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.news-content button {
+  float: right;
+  padding: 1px 5px;
+}
+.news-content p {
+  text-indent: 2em;
+}
+.news-content img {
+  width: 100%;
+  height: auto;
+  margin: 5px 0;
+}
+.news-comment {
+  width: 100%;
+  margin: 20px 0;
+}
+.news-comment label {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid 2px #01a5ed;
+}
+.news-comment form {
+  text-align: right;
+}
+.news-comment form button {
+  display: inline-block;
+}
+.news-comment section {
+  padding: 10px 5px;
+  border-bottom: dashed 1px #eee;
+}
+.news-comment section p {
+  text-indent: 1em;
+  font-size: 14px;
+}
+.news-comment section span {
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+}
+.game-item {
+  padding-left: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+  line-height: 50px;
+}
+.game-item-rank {
+  margin-top: -6px;
+  display: none;
+}
+@media screen and (max-width: 350px) {
+  .academy-content .gold,
+  .academy-content .silver,
+  .academy-content .copper {
+    width: 50%;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .academy-content .gold img,
+  .academy-content .silver img,
+  .academy-content .copper img {
+    height: 25px;
+  }
+}

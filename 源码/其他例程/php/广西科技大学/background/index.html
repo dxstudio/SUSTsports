@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href=" favicon.ico" /> 
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="../jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="save.js"></script>
+	<link rel="stylesheet" href="material.min.css">
+	<script src="material.min.js"></script>
+	<title>广西科技大学第30届田径运动会分数榜后台管理</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<body>
+	<div class="contain">
+		<header>
+			<h1>第30届田径运动会分数榜后台管理</h1>
+			<h3>广西科技大学</h3>
+		</header>
+
+		<div class="card card_top">
+			<div id="rank"></div>
+			<div class="tables">
+			<from>
+			<select id="selected" class="com_select" name="com" style="width:200px;">
+			<option value="财经学院">财经学院</option>
+			<option value="电气与信息工程学院">电气与信息工程学院</option>
+			<option value="管理学院">管理学院</option>
+			<option value="计算机科学与通信工程学院">计算机科学与通信工程学院</option>
+			<option value="机械工程学院">机械工程学院</option>
+			<option value="理学院">理学院</option>
+			<option value="汽车与交通学院">汽车与交通学院</option>
+			<option value="社会科学学院">社会科学学院</option>	
+			<option value="生物与化学工程学院">生物与化学工程学院</option>
+			<option value="体育学院">体育学院</option>
+			<option value="土木建筑工程学院">土木建筑工程学院</option>
+			<option value="外国语学院">外国语学院</option>
+			<option value="艺术与文化传播学院">艺术与文化传播学院</option>
+			<option value="国际教育学院">国际教育学院</option>
+			<option value="医学院">医学院</option>
+			<option value="第一临床医学院">第一临床医学院</option>
+			<option value="职业技术教育学院">职业技术教育学院</option>
+			<option value="硕士研究生">硕士研究生</option>
+			</select>
+			<div class="space"></div>
+			<select id="selected2" class="com_select" name="com" style="width:200px;">
+			<option value="男子100米">男子100米</option>
+			<option value="男子200米">男子200米</option>
+			<option value="男子400米">男子400米</option>
+			<option value="男子800米">男子800米</option>
+			<option value="男子1500米">男子1500米</option>
+			<option value="男子3000米">男子3000米</option>
+			<option value="男子110米栏">男子110米栏</option>
+			<option value="男子400米栏">男子400米栏</option>	
+			<option value="男子4*100米">男子4*100米</option>
+			<option value="男子4*400米">男子4*400米</option>
+			<option value="男子跳高">男子跳高</option>
+			<option value="男子跳远">男子跳远</option>
+			<option value="男子三级跳远">男子三级跳远</option>
+			<option value="男子铅球">男子铅球</option>
+			<option value="男子后抛实心球">男子后抛实心球</option>
+			<option value="男子垒球">男子垒球</option>
+			<option value="女子100米">女子100米</option>
+			<option value="女子200米">女子200米</option>
+			<option value="女子400米">女子400米</option>
+			<option value="女子800米">女子800米</option>
+			<option value="女子1500米">女子1500米</option>
+			<option value="女子110米栏">女子100米栏</option>
+			<option value="女子400米栏">女子400米栏</option>	
+			<option value="女子4*100米">女子4*100米</option>
+			<option value="女子4*400米">女子4*400米</option>
+			<option value="女子跳高">女子跳高</option>
+			<option value="女子跳远">女子跳远</option>
+			<option value="女子三级跳远">女子三级跳远</option>
+			<option value="女子铅球">女子铅球</option>
+			<option value="女子后抛实心球">女子后抛实心球</option>
+			<option value="女子垒球">女子垒球</option>
+			</select>
+			<div class="space"></div>
+			<select id="selected3" class="com_select" name="com" style="width:200px;">
+			<option value="第一名">第一名</option>
+			<option value="第二名">第二名</option>
+			<option value="第三名">第三名</option>
+			<option value="第四名">第四名</option>
+			<option value="第五名">第五名</option>
+			<option value="第六名">第六名</option>
+			<option value="第七名">第七名</option>
+			<option value="第八名">第八名</option>	
+			</select>
+
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo num_input" style="width:200px;display: block;margin: 0 auto;">
+	   			<input name="num" id="name" class="mdl-textfield__input"  type="text" id="sample4" />
+	    		<label class="mdl-textfield__label" for="sample4">姓名...</label>
+	    		<span id="hint" style="display:none;">请输入姓名！</span>
+  			</div>			
+	
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo num_input" style="width:200px;display: block;margin: 0 auto;">
+	   			<input name="num" id="num2" class="mdl-textfield__input"  type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4" />
+	    		<label class="mdl-textfield__label" for="sample4">得分...</label>
+	    		<span id="hint" style="display:none;">请输入得分！</span>
+  			</div>
+			
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo num_input" style="width:200px;display: block;margin: 0 auto;">
+	   			<input name="num" id="password" class="mdl-textfield__input"  type="password" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4" />
+	    		<label class="mdl-textfield__label" for="sample4">管理密码...</label>
+	    		<span id="hint" style="display:none;">请输入管理密码！</span>
+  			</div>
+
+			</from>
+
+			<br>
+			<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="Button" style="width:200px; display: block;margin: 0 auto;background-color:blue;color:#fff;">
+			  提交
+			</button>
+			<div class="space"></div>
+			<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="Button_2" style="width:200px; display: block;margin: 0 auto;background-color:red; color:#fff;">
+			  删除
+			</button>
+			<div class="space"></div>
+			<div class="readfirst">
+				
+			</div>
+		</div>
+		<div class="info">
+		<table>
+			<tr>
+				<td>第一</td>
+				<td>第二</td>
+				<td>第三</td>
+				<td>第四</td>
+				<td>第五</td>
+				<td>第六</td>
+				<td>第七</td>
+				<td>第八</td>
+			</tr>
+			<tr>
+				<td>9分</td>
+				<td>7分</td>
+				<td>6分</td>
+				<td>5分</td>
+				<td>4分</td>
+				<td>3分</td>
+				<td>2分</td>
+				<td>1分</td>
+			</tr>
+		</table>
+			<p>单项以9、7、6、5、4、3、2、1计分，接力项目加倍计分，破校运动会纪录另加10分，破校最高纪录加20分。如团体总分相等，则按第一名多少排序，以此类推。</p>
+			<p>删除某个项目方法：在分数详情页面找到需要删除的项目信息，在后台选择学院，项目，名次，输入姓名，得分后，点击删除，删除成功会有提示，失败则没有。</p>
+		</div>
+		<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo num_input" style="width:200px;display: block;margin: 0 auto;">
+	   			<input name="num" id="record_Bre" class="mdl-textfield__input"  type="text" id="sample4" />
+	    		<label class="mdl-textfield__label" for="sample4">破纪录...</label>
+	    		<span id="hint" style="display:none;">请输入破纪录！</span>
+  		</div>	
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="Button_3" style="width:200px; display: block;margin: 0 auto;background-color:blue;color:#fff;">
+			  提交
+			</button>
+			<div class="space"></div>
+			<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="Button_4" style="width:200px; display: block;margin: 0 auto;background-color:red; color:#fff;">
+			  删除
+			</button>
+			<div class="space"></div>
+		</div>
+		<div class="footer">
+			<p class="link">QQ: 597914752</p>
+			<p class="link">Copyright © 2015 by 国际教育学院 平兄. All rights reserved.</p>
+			<p class="link">广西科技大学易班发展中心</p>
+		</div>
+
+	</div>
+</body>
+</html>

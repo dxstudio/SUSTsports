@@ -1,0 +1,112 @@
+{include file="common/_meta"}
+<body>
+<article class="cl pd-20">
+	<form action="addAthlete" method="POST" class="form form-horizontal" id="form-admin-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3" for="credit_id"><span class="c-red">*</span>身份号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="hidden" id="match_status" name="match_status" value="2">
+				<input type="text" class="input-text" value="" placeholder="" id="credit_id" name="credit_id" onblur="searchUser()">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">姓名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" autocomplete="off" value="" placeholder="姓名" id="real_name" name="real_name" disabled>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">组别：</label>
+			<div class="formControls col-xs-3 col-sm-3">
+				<input type="text" class="input-text" autocomplete="off"  placeholder="电信学院" id="unit_name" name="unit_name" disabled>
+			</div>
+			<div class="formControls col-xs-3 col-sm-3">
+				<input type="text" class="input-text" autocomplete="off"  placeholder="大学生组" id="user_type" name="user_type" disabled>
+			</div>
+			<div class="formControls col-xs-3 col-sm-3">
+				<input type="text" class="input-text" autocomplete="off"  placeholder="男子组" id="user_sex" name="user_sex" disabled>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>手机：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="+86" id="user_tel" name="user_tel" >
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>邮箱：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" placeholder="@" name="user_email" id="user_email" >
+			</div>
+		</div>
+		
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				<!-- <button class="btn btn-primary " id="send" type="submit">Submit</button> -->
+			</div>
+		</div>
+	</form>
+</article>
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/H-ui.admin.page/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/H-ui.admin.page/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/H-ui.admin.page/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+//表单验证
+$(function(){
+	$('.skin-minimal input').iCheck({
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").validate({
+		rules:{
+			credit_id:{
+				required:true,
+				minlength:2,
+				maxlength:12
+			},
+			user_tel:{
+				required:true,
+				isPhone:true,
+			},
+			user_email:{
+				required:true,
+				email:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}//提交后会有xhr错误,但能提交
+	});
+});
+//检索信息
+function searchUser(){  
+    var credit_id=document.getElementById("credit_id").value; 
+	$.ajax({ 
+	url:'serachUser',  
+	data:{'credit_id':credit_id},//传入后台参数  
+	type:"POST", 
+	complete :function(){},
+	dataType:"json",  
+	success:function(result){	
+		document.getElementById('real_name').value= result.real_name;
+		document.getElementById('unit_name').value= result.unit_name;
+		document.getElementById('user_type').value= result.user_type;
+		document.getElementById('user_sex').value= result.user_sex+"子组";
+	}
+	});  
+}
+
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

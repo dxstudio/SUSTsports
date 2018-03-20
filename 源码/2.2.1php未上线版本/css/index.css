@@ -1,0 +1,42 @@
+.container{
+	background-image:url(images/tu/1.jpg);
+	width:100%;
+	}
+.header{
+	background-color:#ccccff;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#666;
+	display:inline;
+	line-height:30px;
+	}
+.grades{
+	padding-top:20px;
+}
+.news{
+	padding:20px;
+	background-color:#FFF;
+	}
+.media-object{
+		width: 80px;
+		height: 80px	
+	}
+.media-body{
+	font-size:14px;
+	font-family:;
+	color:#353535;
+	
+	
+	}	
+.footer{
+	background-color:#ccccff;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#666;
+	display:inline;
+	line-height:30px;
+	}

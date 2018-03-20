@@ -1,0 +1,755 @@
+
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’3’,’环境’,’环境学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’8’,’化工’,’化工学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’9’,’设艺’,’设艺学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’4’,’食品’,’食品学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’7’,’经管’,’经管学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’10’,’文理’,’文理学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’1’,’轻工’,’轻工学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’12’,’机关’,’机关教工’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’13’,’保障’,’保障教工’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’16’,’思政’,’思政学院’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’15’,’图书馆’,’图书馆教工’,’男女十人插秧收割’,’2016.04.26 10:32’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’1’,’轻工’,’轻工学院’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’12’,’机关’,’机关教工’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’4’,’食品’,’食品学院’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’13’,’保障’,’保障教工’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’10’,’文理’,’文理学院’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’9’,’设艺’,’设艺学院’,’男子4*400米’,’2016.04.26 10:52’,'教工青年组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’女子4*400米’,’2016.04.26 11:00’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’7’,’经管’,’经管学院’,’女子4*400米’,’2016.04.26 11:00’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’女子4*400米’,’2016.04.26 11:00’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’1’,’轻工’,’轻工学院’,’女子4*400米’,’2016.04.26 11:00’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’女子4*400米’,’2016.04.26 11:00’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’女子4*400米’,’2016.04.26 11:00’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’10’,’文理’,’文理学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’9’,’设艺’,’设艺学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’4’,’食品’,’食品学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’8’,’化工’,’化工学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’男子4*400米’,’2016.04.26 11:08’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’3’,’环境’,’环境学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’10’,’文理’,’文理学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’8’,’化工’,’化工学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’1’,’轻工’,’轻工学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19’,’镐京’,’镐京学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’9’,’设艺’,’设艺学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’7’,’经管’,’经管学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('11’,’职教’,’职教学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’3’,’环境’,’环境学院’,’女子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’7’,’经管’,’经管学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’11’,’职教’,’职教学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’8’,’化工’,’化工学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’19’,’镐京’,’镐京学院’,’男子三人踏板竞速’,’2016.04.26 9:30’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’6’,’电信’,’电信学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’10’,’文理’,’文理学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’9’,’设艺’,’设艺学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’1’,’轻工’,’轻工学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’8’,’化工’,’化工学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’2’,’材料’,’材料学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’3’,’环境’,’环境学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’5’,’机电’,’机电学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19’,’镐京’,’镐京学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+INSERT INTO
+[systata_sustxgb].[dbo].[ANHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES(’7’,’经管’,’经管学院’,’男女接力投篮’,’2016.04.26 10:40’,'大学生组'，0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信1','电信学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理1','文理学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺1','设艺学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理2','文理学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺2','设艺学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理3','文理学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺4','设艺学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理4','文理学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信2','电信学院','女子三人踏板竞速 ','2016.04.26 09:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理1','文理学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信1','电信学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺1','设艺学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('14','后勤','后勤教工','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障','保障教工','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺2','设艺学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理1','文理学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺3','设艺学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障2','保障教工','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺4','设艺学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信2','电信学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理2','文理学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺5','设艺学院','男子三人踏板竞速 ','2016.04.26 09:50','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('16','思政','思政教工','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障','保障教工','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('15','图书馆','图书馆教工','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女接力投篮 ','2016.04.26 10:55','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('11','职教','职教学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','女子4×100米 ','2016.04.26 16:21','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('11','职教','职教学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男子4×100米 ','2016.04.26 16:41','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19','镐京','镐京学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女障碍接力 ','2016.04.26 15:00','学生组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','镐京','镐京学院','男女滚铁环 ','2016.04.27 8:35','学生组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障','保障教工','女子4×100米','2016.04.27 11:03','教工组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障','保障教工','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男子4×100米','2016.04.27 11:23','教工组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','后勤','后勤教工','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('16','思政','思政教工','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('15','图书馆','图书馆教工','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障','保障教工','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女集体跳大绳','2016.04.27 10:20','教工组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19','镐京','镐京学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女七人龙卷风','2016.04.27 11:00','学生组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19','镐京','镐京学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女立定跳远团体赛','2016.04.27 9:00','学生组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19','镐京','镐京学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','女子仰卧起坐团体赛','2016.04.27 10:00','学生组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','材料','材料学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('15','图书馆','图书馆教工','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('13','保障','保障教工','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','设艺学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('12','机关','机关教工','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女七人龙卷风','2016.04.27 14:30','教工组',0,0)
+
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('10','文理','文理学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('4','食品','食品学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('11','职教','职教学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('3','环境','环境学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('19','镐京','镐京学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('7','经管','经管学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('5','机电','机电学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('9','设艺','文理学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('8','化工','化工学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('1','轻工','轻工学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('6','电信','电信学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+INSERT INTO [sysdata_sustxgb].[dbo].[ATHLETE]([ID],[NAME],[ACADEMY],[COMPETITION],[Ctime],[AIdentity],[RANK],[INTEGRAL])
+VALUES('2','材料','材料学院','男女十人十一足','2016.04.27 15:10','学生组',0,0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
